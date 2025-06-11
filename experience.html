@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experience | Ashutosh Singh</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  
+  <header>
+    <img src="img/profile.jpg" alt="Ashutosh Singh" class="profile-pic" />
+    <div class="intro">
+      <h1>Ashutosh Singh</h1>
+      <p>Lead Consultant | SDET</p>
+    </div>
+    <nav>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="experience.html" class="active">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="timeline">
+      <h2>Work Experience</h2>
+      <div class="timeline-grid">
+        <div class="timeline-item">
+          <h3>Genpact – Lead Consultant (Sept, 2024–Present)</h3>
+          <ul>
+            <li>Healthcare & Insurance domain</li>
+            <li><i class="fa-brands fa-java fa-bounce"></i> JavaScript, Playwright, API, Mobile application</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3>Loconav – Senior SDET (May, 2022–Aug, 2024)</h3>
+          <ul>
+            <li>CFleet domain (GPS, Challan, FasTag)</li>
+            <li><i class="fa-solid fa-vial fa-bounce"></i> Rest Assured, Selenium, API, Java, TestNG, Mobile Application</li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3>Qualitest – Software Engineer II (Feb, 2018–April, 2022)</h3>
+          <ul>
+            <li>Health care & E-Learning domain</li>
+            <li><i class="fa-solid fa-code fa-spin"></i> Selenium, TestNG, CNOW automation,Web Application, API Testing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Major Projects</h2>
+      <div class="project-card">
+        <h3>Healthcare & Insurance Domain (Liberty Mutual)</h3>
+        <p><strong>Testing Method:</strong> Mobile Application, Web application, API Testing and Automation Testing(Selenium)
+        </p>
+        <p><strong>Skills:</strong> JavaScript, Playwright, Mobile application Testing, Jenkins, GIT, Page Factory and Team handling.</p>
+        <p><strong>Project Description and Responsibility:</strong>Project focuses on Mobile application testing based on healthcare domain. I have also worked on Insurance domain with web application and API testing also worked on Web application UI automation.</p>
+      </div>
+      <div class="project-card">
+        <h3>CFleet – Vehicle Management Domain (Loconav)</h3>
+        <p><strong>Testing Method:</strong> Mobile Application, API Testing and Automation Testing(RestAssured and UI)</p>
+        <p><strong>Skills:</strong> API, Rest Assured, Java, Selenium, TestNG, Maven, Mobile application Testing, Jenkins, GIT, POJOS, JSON, Page Factory,MITM, Qmetry, Team handling.</p>
+        <p><strong>Project Description and Responsibility:</strong>Project focuses on vehicle GPS, Challan, FasTag, and maintenance.Responsibilities include testing Android/IOS applications, API Testing, Web Application, and involvement in API and UI Automation Testing.Interacts with onsite clients and presents technical demos. In Automation we are automating API with rest assured, TestNG and Maven. Also we are using Selenium and TestNg for the UI part.</p>
+      </div>
+      <div class="project-card">
+        <h3>Healthcare & E-Learning domain(Cengage Learning)</h3>
+        <p><strong>Testing Method:</strong> Functional, Mobile Application testing and Automation Testing</p>
+        <p><strong>Skills:</strong> Mobile Application Testing, API Testing, Functional Testing, Selenium, TestNG.</p>
+        <p><strong>Project Description and Responsibility:</strong>These projects are fully functional testing which are based on multiple domain i.e. Health and E-Learning. We performed testing on cross browsers and devices. We also have an automation script for CNOW questions which have to run for the all product and share their report with the client. We are Using Automation tools like selenium and TestNG with Java.
+</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ashutosh Singh</p>
+  </footer>
+
+  <script>
+    // Hamburger Toggle
+    document.getElementById("hamburger").onclick = function () {
+      document.getElementById("nav-links").classList.toggle("show");
+    };
+  </script>
+</body>
+</html>
